@@ -1,0 +1,43 @@
+.container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.selection-box {
+    background-color: #ddd;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #777;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+    text-decoration: none;
+    width: 150px;
+    height: 80px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.navigation a:hover {
+    background-color: #333;
+}
+
+.logout {
+    color: red;
+}

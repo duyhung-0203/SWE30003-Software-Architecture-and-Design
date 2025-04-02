@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+}
+
+#map {
+    height: 500px;
+    width: 500px;
+    margin-top: 10px;
+}
+
+#bookButton {
+    display: none;
+}
+
+#update {
+    display: none;
+}

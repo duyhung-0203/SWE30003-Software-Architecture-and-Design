@@ -1,0 +1,10 @@
+.role-options {
+    display:flex;
+    justify-content: space-around;
+}
+
+.role-options button {
+    width: 150px;
+    height: 80px;
+    font-size: 18px;
+}
